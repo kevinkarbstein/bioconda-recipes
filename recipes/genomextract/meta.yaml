@@ -28,6 +28,7 @@ requirements:
     - pandas
     - requests
     - openpyxl
+    - alnPairDist
     - ncbi-datasets-cli ==18.9.0
     - raxml-ng ==1.2.2
     - iqtree ==3.0.1
@@ -35,7 +36,6 @@ requirements:
     - astral-tree ==5.7.8
     - blast ==2.17.0
     - mash ==2.3
-    - alnPairDist ==1.0.5
 
 test:
   commands:
